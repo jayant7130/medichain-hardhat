@@ -22,7 +22,7 @@ const POLYGON_MAINNET_RPC_URL =
 const GOERLI_RPC_URL =
     process.env.GOERLI_RPC_URL || "https://eth-goerli.alchemyapi.io/v2/XQTgX9upPCjtnfkojDdQ_icc8EQVuLd5"
 
-const OWNER_PRIVATE_KEY = process.env.OWNER_PRIVATE_KEY || "0x"
+const OWNER_PRIVATE_KEY = process.env.OWNER_PRIVATE_KEY || "706324a48fbfcbf9f6891f7451bf63459324673e0c2b41f396c6215f10a97d30"
 const HOSPITAL_PRIVATE_KEY = process.env.HOSPITAL_PRIVATE_KEY || "0x"
 const DOCTOR_PRIVATE_KEY = process.env.DOCTOR_PRIVATE_KEY || "0x"
 const PATIENT_PRIVATE_KEY = process.env.PATIENT_PRIVATE_KEY || "0x"
