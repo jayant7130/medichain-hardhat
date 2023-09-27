@@ -23,9 +23,10 @@ const GOERLI_RPC_URL =
     process.env.GOERLI_RPC_URL || "https://eth-goerli.alchemyapi.io/v2/XQTgX9upPCjtnfkojDdQ_icc8EQVuLd5"
 
 const OWNER_PRIVATE_KEY = process.env.OWNER_PRIVATE_KEY || "706324a48fbfcbf9f6891f7451bf63459324673e0c2b41f396c6215f10a97d30"
-const HOSPITAL_PRIVATE_KEY = process.env.HOSPITAL_PRIVATE_KEY || "0x"
-const DOCTOR_PRIVATE_KEY = process.env.DOCTOR_PRIVATE_KEY || "0x"
-const PATIENT_PRIVATE_KEY = process.env.PATIENT_PRIVATE_KEY || "0x"
+const HOSPITAL_PRIVATE_KEY = "0x04a5d24b8a55abdf0ad8f6fb0f4c0a4e5a8bb3e6a02c9b0f2c401e87c9d3f515";
+const DOCTOR_PRIVATE_KEY = "0x6b6ca73a7c06552e746d3d2d650a8d4ad5a35ee4e3a837eeb7e774a4a20d7c23";
+const PATIENT_PRIVATE_KEY = "0xf0f49ad79863bf648a18d6190782cf4c7f6a9ad1544f575efeb890c869d13ae1";
+
 
 // optional
 //const MNEMONIC = process.env.MNEMONIC || "your mnemonic"
